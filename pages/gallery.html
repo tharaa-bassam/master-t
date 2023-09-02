@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- lightgallery cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <!-- custom css link -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
     
@@ -33,11 +35,12 @@
             <div id="login" class="fas fa-user"></div>
             <div id="menu" class="fas fa-bars"></div>
         </div>
+
         <div class="shopping-cart">
 
             <div class="box">
                 <i class="fas fa-times"></i>
-                <img src="images/mocha_frappuccino-removebg-preview.png" alt="">
+                <img src="../images/mocha_frappuccino-removebg-preview.png" alt="">
                 <div class="content">
                     <h3>Mocha Frappuccino</h3>
                     <span class="quantity">1</span>
@@ -48,7 +51,7 @@
 
             <div class="box">
                 <i class="fas fa-times"></i>
-                <img src="images/mocha_frappuccino-removebg-preview.png" alt="">
+                <img src="../images/mocha_frappuccino-removebg-preview.png" alt="">
                 <div class="content">
                     <h3>Mocha Frappuccino</h3>
                     <span class="quantity">1</span>
@@ -59,7 +62,7 @@
 
             <div class="box">
                 <i class="fas fa-times"></i>
-                <img src="images/mocha_frappuccino-removebg-preview.png" alt="">
+                <img src="../images/mocha_frappuccino-removebg-preview.png" alt="">
                 <div class="content">
                     <h3>Mocha Frappuccino</h3>
                     <span class="quantity">1</span>
@@ -87,60 +90,66 @@
     <!-- header section ends -->
 
     <div class="heading">
-        <h1>our contact</h1>
-        <p><a href="home.html">home>>></a> contact</p>
+        <h1>our gallery</h1>
+        <p><a href="../home.html">home>>></a> gallery</p>
     </div>
 
+    <!-- gallery section starts -->
 
-    <!-- contact section starts -->
+    <section class="gallery">
 
-    <section class="contact">
+        <div class="gallery-container">
 
-        <div class="icon-container">
+            <a href="../images/milksh.jpg" class="box">
+                <img src="../images/milksh.jpg" alt="">
+                <div class="icon"><i class="fas fa-plus"></i></div>
+            </a>
 
-            <div class="icons">
-                <i class="fas fa-phone"></i>
-                <h3>our number</h3>
-                <p>+123-456-7890</p>
-                <p>+123-456-7890</p>
-            </div>
+            <a href="../images/iced.jpg" class="box">
+                <img src="../images/iced.jpg" alt="">
+                <div class="icon"><i class="fas fa-plus"></i></div>
+            </a>
 
-            <div class="icons">
-                <i class="fas fa-envelope"></i>
-                <h3>our email</h3>
-                <p>cofeeland@gmail.com</p>
-                <p>cofeeland@gmail.com</p>
-            </div>
+            <a href="../images/hotdrinks.jpg" class="box">
+                <img src="../images/hotdrinks.jpg" alt="">
+                <div class="icon"><i class="fas fa-plus"></i></div>
+            </a>
 
-            <div class="icons">
-                <i class="fas fa-map-marker-alt"></i>
-                <h3>our address</h3>
-                <p>aqaba, jordan - 1234</p>
-            </div>
+            <a href="../images/home1.jpg" class="box">
+                <img src="../images/home1.jpg" alt="">
+                <div class="icon"><i class="fas fa-plus"></i></div>
+            </a>
 
-        </div>
+            <a href="../images/32a5c7590d36211eea517cbc6cec10b6.jpg" class="box">
+                <img src="../images/32a5c7590d36211eea517cbc6cec10b6.jpg" alt="">
+                <div class="icon"><i class="fas fa-plus"></i></div>
+            </a>
 
-        <div class="row">
+            <a href="../images/iio0.jpg" class="box">
+                <img src="../images/iio0.jpg" alt="">
+                <div class="icon"><i class="fas fa-plus"></i></div>
+            </a>
 
-            <form action="">
-                <h3>let's contact with us</h3>
-                <div class="inputBox">
-                    <input type="text" placeholder="enter your name" class="box">
-                    <input type="email" placeholder="enter your email" class="box">
-                </div>
-                <div class="inputBox">
-                    <input type="number" placeholder="enter your number" class="box">
-                    <input type="text" placeholder="enter your subject" class="box">
-                </div>
-                <textarea placeholder="your message" cols="30" rows="10"></textarea>
-                <input type="submit" value="send message" class="btn">
-            </form>
+            <a href="../images/abut.jpg" class="box">
+                <img src="../images/abut.jpg" alt="">
+                <div class="icon"><i class="fas fa-plus"></i></div>
+            </a>
+
+            <a href="../images/hhj.jpg" class="box">
+                <img src="../images/hhj.jpg" alt="">
+                <div class="icon"><i class="fas fa-plus"></i></div>
+            </a>
+
+            <a href="../images/banner-2.jpg" class="box">
+                <img src="../images/banner-2.jpg" alt="">
+                <div class="icon"><i class="fas fa-plus"></i></div>
+            </a>
 
         </div>
 
     </section>
 
-    <!-- contact section ends -->
+    <!-- gallery section ends -->
 
     
 
@@ -187,9 +196,20 @@
 
 
 
-    
 
+
+
+
+
+
+    <!-- lightgallery cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
     <!-- custom js link -->
     <script src="script.js"></script>
+
+    <script>
+        lightGallery(document.querySelector('.gallery .gallery-container'))
+    </script>
+
 </body>
 </html>
