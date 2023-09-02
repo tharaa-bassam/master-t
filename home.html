@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- swiper cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- custom css link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- header section starts -->
+
+    <header class="header">
+
+        <a href="home.html" class="logo">  </a>
+
+        <nav class="navbar">
+            <a href="home.html">home</a>
+            <a href="about.html">about</a>
+            <a href="menu.html">menu</a>
+            <a href="gallery.html">gallery</a>
+            <a href="product.html">product</a>
+            <a href="contact.html">contact</a>
+
+        </nav>
+
+        <div class="icons">
+            <div id="cart" class="fas fa-shopping-cart"></div>
+            <div id="login" class="fas fa-user"></div>
+            <div id="menu" class="fas fa-bars"></div>
+        </div>
+
+        <div class="shopping-cart">
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/mocha_frappuccino-removebg-preview.png" alt="">
+                <div class="content">
+                    <h3>Mocha Frappuccino</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">x</span>
+                    <span class="price">$ 18.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/mocha_frappuccino-removebg-preview.png" alt="">
+                <div class="content">
+                    <h3>Mocha Frappuccino</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">x</span>
+                    <span class="price">$ 18.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/mocha_frappuccino-removebg-preview.png" alt="">
+                <div class="content">
+                    <h3>Mocha Frappuccino</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">x</span>
+                    <span class="price">$ 18.99</span>
+                </div>
+            </div>
+            <h3 class="total">total: $56.97</h3>
+            <a href="#" class="btn">checkout cart</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login form</h3>
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="password" placeholder="enter your password" class="box">
+            <div class="remember">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+            <input type="submit" value="login" class="btn">
+        </form>
+       
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts -->
+
+    <section class="home">
+
+        <div class="swiper home-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide" style="background: url(images/pic11.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>the <span>tastiest</span> coffe <br> on the planet</h3>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(images/barista.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>the <span>tastiest</span> coffe <br> on the planet</h3>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(images/friend.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>the <span>tastiest</span> coffe <br> on the planet</h3>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- banner section starts -->
+
+    <section class="banner">
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/iio0.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>iced coffe</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/red dessert.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>dessert</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/molkship.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Milkshakes</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/hotdrinks.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Hot Drinks</h3>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- banner section ends -->
+
+    <!-- steps section starts -->
+
+    <section class="steps">
+
+        <h1 class="title">how it <span>works</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/jpo.png" alt="">
+                <h3>choose your favorite coffe</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/work-2.gif" alt="">
+                <h3>free and fast delivery</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/work-3.gif" alt="">
+                <h3>easy payments methods</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/work-4.gif" alt="">
+                <h3>and finally, enjoy your coffe</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- steps section ends -->
+
+    <!-- coffe menu section starts -->
+
+    <section class="pizzas">
+
+        <h1 class="title">coffes of the <span>month</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/cofeg-removebg-preview.png" alt="">
+                <h3>matcha frappe</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet ratione</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/caramel-removebg-preview.png" alt="">
+                <h3>Dreamy Caramel Milkshake</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet ratione</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/mocha_frappuccino-removebg-preview.png" alt="">
+                <h3>mocha frappuccino</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet ratione</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- coffe menu section ends -->
+
+  <!-- about -->
+
+  <section class="about" id="about">
+
+    <h2 class="deco-title">About us</h2>
+
+    <div class="box-container">
+
+        <div class="image">
+            <img src="images/Breakroom-Blob02-coffe.png" alt="">
+        </div>
+
+        <div class="content">
+            <h3 class="title">you can find all the most popular species</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Nesciunt temporibus ipsum consectetur asperiores modi ratione. 
+                Sit, dolores voluptas consequuntur dolor tempore quibusdam est 
+                obcaecati possimus omnis, officiis molestias et sapiente.</p>
+            
+            <div >
+                <a href="about.html" class="btn">more about us</a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- end -->
+
+
+
+
+<!-- coffe menu section starts -->
+
+<section class="pizzas">
+
+    <h1 class="title">What We <span>Provide</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/machine 1.png" alt="">
+            <h3>matcha frappe</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet ratione</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$15.99 <span>$20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/machine2-removebg-preview.png" alt="">
+            <h3>Dreamy Caramel Milkshake</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet ratione</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$15.99 <span>$20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/machine3-removebg-preview.png" alt="">
+            <h3>mocha frappuccino</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet ratione</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$15.99 <span>$20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- coffe menu section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer section starts -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>find us here</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo ad</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                   
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact us</h3>
+                <p>+123-456-7890</p>
+              
+            </div>
+
+            <div class="box">
+                <h3>localization</h3>
+                <p>230 point of pines dr <br>
+                    colorado springs
+                    jordan</p>
+            </div>
+
+        </div>
+       
+    </section>
+
+    <!-- footer section ends -->
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+    <!-- swiper cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js link -->
+    <script src="script.js"></script>
+
+       <!----------------| Scrollreveal |--------------->
+       <script src="js/scrollreveal.min.js"></script>
+
+       <!----------------| Mixitup |--------------->
+       <script src="js/mixitup.min.js"></script>
+       <script>
+        ScrollReveal({ reset: true ,
+                distance: '60px',
+                duration : 2500 , 
+                delay:400 
+
+});
+
+ScrollReveal().reveal('.title', { delay: 500 , origin: 'left' });
+ScrollReveal().reveal('.steps .box-container', { delay: 500 , origin: 'bottom' });
+ScrollReveal().reveal('.pizzas .box-container', { delay: 500 , origin: 'bottom' });
+ScrollReveal().reveal('.about .box-container .image', { delay: 500 , origin: 'bottom' });
+
+
+
+       </script>
+
+</body>
+</html>
